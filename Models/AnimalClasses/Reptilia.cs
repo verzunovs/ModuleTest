@@ -9,6 +9,6 @@
         {
         }
 
-        public abstract void LayEggs(bool isPregant);
+        public abstract void LayEggs();
     }
 }

@@ -1,25 +1,22 @@
-﻿namespace HomeWorkForModuleTest.Models
+﻿namespace HomeWorkForModuleTest.Models.AnimalClasses.AnimalOrders.AnimalFamilies.AnimalSpecies
 {
     using System;
     using HomeWorkForModuleTest.Enums;
 
-    public class Lion : Felidae
+    public class AmericanCrocodile : Crocodylidae
     {
-        public Lion(double weight, double amountOfFoodRequiredPerDay, int age, Sex sex, ListOfFelids felids)
-           : base(weight, amountOfFoodRequiredPerDay, age, sex, felids)
+        public AmericanCrocodile(double weight, double amountOfFoodRequiredPerDay, int age, Sex sex, ListOfCrocodylidae typeOfCrocodylidae)
+  : base(weight, amountOfFoodRequiredPerDay, age, sex, typeOfCrocodylidae)
         {
         }
 
-        public string Name => nameof(Lion);
+        public string Name => nameof(AmericanCrocodile);
 
         public override bool IsPregant => this.IsAbleToBePregant();
 
-        public override void GiveBirth()
+        public override void LayEggs()
         {
-            if (this.IsPregant)
-            {
-                Console.WriteLine("This animal ready to give a birth.");
-            }
+            Console.WriteLine("This animal is ready for lay aeggs.");
         }
 
         private bool IsAbleToBePregant()
