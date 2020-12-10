@@ -52,9 +52,12 @@
     <Compile Include="Enums\ListOfFelids.cs" />
     <Compile Include="Models\Animal.cs" />
     <Compile Include="Enums\Sex.cs" />
+    <Compile Include="Models\Carnivora.cs" />
     <Compile Include="Models\EvenToedUngulate.cs" />
     <Compile Include="Models\Felidae.cs" />
     <Compile Include="Models\ICreature.cs" />
+    <Compile Include="Models\IEat.cs" />
+    <Compile Include="Models\Lion.cs" />
     <Compile Include="Models\Mammal.cs" />
     <Compile Include="Models\Reptile.cs" />
     <Compile Include="Program.cs" />

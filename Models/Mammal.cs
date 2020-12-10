@@ -9,6 +9,6 @@
         {
         }
 
-        public abstract void GiveBirth(bool isPregant);
+        public abstract void GiveBirth();
     }
 }

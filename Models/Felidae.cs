@@ -2,7 +2,7 @@
 {
     using HomeWorkForModuleTest.Enums;
 
-    public abstract class Felidae : Mammal
+    public abstract class Felidae : Carnivora
     {
         private readonly ListOfFelids felids;
 
