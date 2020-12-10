@@ -11,7 +11,5 @@
         double AmountOfFoodRequiredPerDay { get; }
 
         Sex Sex { get; }
-
-        bool IsPregant { get; }
     }
 }

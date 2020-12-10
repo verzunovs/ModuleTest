@@ -49,9 +49,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
+    <Compile Include="Enums\ListOfFelids.cs" />
+    <Compile Include="Models\Animal.cs" />
     <Compile Include="Enums\Sex.cs" />
-    <Compile Include="ICreature.cs" />
+    <Compile Include="Models\EvenToedUngulate.cs" />
+    <Compile Include="Models\Felidae.cs" />
+    <Compile Include="Models\ICreature.cs" />
+    <Compile Include="Models\Mammal.cs" />
+    <Compile Include="Models\Reptile.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
