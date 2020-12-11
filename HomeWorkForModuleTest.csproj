@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Enums\ListOfAlligatoridae.cs" />
+    <Compile Include="Enums\ListOfChevrotain.cs" />
     <Compile Include="Enums\ListOfCrocodylidae.cs" />
     <Compile Include="Enums\ListOfFelids.cs" />
     <Compile Include="Models\Animal.cs" />
@@ -57,10 +58,14 @@
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\Alligator.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\Alligatoridae.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\AmericanCrocodile.cs" />
-    <Compile Include="Models\AnimalClasses\AnimalOrders\Crocodilia.cs" />
+    <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\Cheetah.cs" />
+    <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\IndianSpottedChevrotain.cs" />
+    <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\JavaMouseDeer.cs" />
+    <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\Chevrotain.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\Crocodylidae.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\Carnivora.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\Felidae.cs" />
+    <Compile Include="Models\AnimalClasses\AnimalOrders\EvenToedUngulate.cs" />
     <Compile Include="Models\ICreature.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\IEat.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\Lion.cs" />

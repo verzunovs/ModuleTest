@@ -2,7 +2,7 @@
 {
     using HomeWorkForModuleTest.Enums;
 
-    public abstract class Crocodylidae : Crocodilia
+    public abstract class Crocodylidae : Reptilia
     {
         private readonly ListOfCrocodylidae typeOfCrocodylidae;
 
