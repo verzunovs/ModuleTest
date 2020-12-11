@@ -16,6 +16,8 @@
         {
             var safariPark = this.safariParkService.CreateSafariParkSection();
             System.Array.Sort(safariPark.Animals, new AnimalComparer());
+            safariPark.Search(4);
+            System.Console.WriteLine($"In safari park {safariPark.AmountOfSpecies} species.");
         }
     }
 }

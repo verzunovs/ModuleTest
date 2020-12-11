@@ -55,6 +55,7 @@
     <Compile Include="Enums\ListOfCrocodylidae.cs" />
     <Compile Include="Enums\ListOfFelids.cs" />
     <Compile Include="Helper\AnimalComparer.cs" />
+    <Compile Include="Helper\SafariParkExtension.cs" />
     <Compile Include="Models\Animal.cs" />
     <Compile Include="Enums\Sex.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\Alligator.cs" />

@@ -6,6 +6,7 @@
         {
             var start = new Starter();
             start.Run();
+            System.Console.ReadKey();
         }
     }
 }
