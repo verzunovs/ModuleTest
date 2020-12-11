@@ -49,10 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entities\SafariPark.cs" />
     <Compile Include="Enums\ListOfAlligatoridae.cs" />
     <Compile Include="Enums\ListOfChevrotain.cs" />
     <Compile Include="Enums\ListOfCrocodylidae.cs" />
     <Compile Include="Enums\ListOfFelids.cs" />
+    <Compile Include="Helper\AnimalComparer.cs" />
     <Compile Include="Models\Animal.cs" />
     <Compile Include="Enums\Sex.cs" />
     <Compile Include="Models\AnimalClasses\AnimalOrders\AnimalFamilies\AnimalSpecies\Alligator.cs" />
