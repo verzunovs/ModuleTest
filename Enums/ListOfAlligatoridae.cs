@@ -4,7 +4,6 @@
     {
         Aligator,
         Caliman,
-        AmericanAligator,
         Melanosuchus,
         Paleosuchus,
     }

@@ -10,7 +10,7 @@
         {
         }
 
-        public string Name => nameof(AmericanCrocodile);
+        public override string Name => nameof(AmericanCrocodile);
 
         public override bool IsPregant => this.IsAbleToBePregant();
 

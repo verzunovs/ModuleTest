@@ -26,5 +26,7 @@
         public Sex Sex => this.sex;
 
         public abstract bool IsPregant { get; }
+
+        public abstract string Name { get; }
     }
 }

@@ -10,7 +10,7 @@
         {
         }
 
-        public string Name => nameof(JavaMouseDeer);
+        public override string Name => nameof(JavaMouseDeer);
 
         public override bool IsPregant => this.IsAbleToBePregant();
 

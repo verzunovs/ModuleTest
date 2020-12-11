@@ -75,6 +75,9 @@
     <Compile Include="Models\AnimalClasses\Reptilia.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\ISafariParkService.cs" />
+    <Compile Include="Services\SafariParkService.cs" />
+    <Compile Include="Starter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

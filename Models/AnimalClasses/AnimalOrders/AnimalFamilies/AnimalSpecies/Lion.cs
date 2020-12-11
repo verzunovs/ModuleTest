@@ -1,4 +1,4 @@
-﻿namespace HomeWorkForModuleTest.Models
+﻿namespace HomeWorkForModuleTest.Models.AnimalClasses.AnimalOrders.AnimalFamilies.AnimalSpecies
 {
     using System;
     using HomeWorkForModuleTest.Enums;
@@ -10,7 +10,7 @@
         {
         }
 
-        public string Name => nameof(Lion);
+        public override string Name => nameof(Lion);
 
         public override bool IsPregant => this.IsAbleToBePregant();
 
